@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+    id="org.jboss.aerogear.android.authz"
+    version="2.0.0">
+  <engines>
+    <engine name="cordova" version=">=3.0.0" />
+  </engines>
+
+  <name>Aerogear Android Authz Services</name>
+
+  <platform name="android">
+    <source-file src="libs/aerogear-android-core-2.0.0.jar" target-dir="libs" />
+    <source-file src="libs/aerogear-android-authz-2.0.0.jar" target-dir="libs" />
+    <source-file src="libs/aerogear-android-store-2.0.0.jar" target-dir="libs" />
+    <source-file src="libs/aerogear-android-pipe-2.0.0.jar" target-dir="libs" />
+    <source-file src="libs/gson-2.2.2.jar" target-dir="libs" />
+  </platform>
+</plugin>
